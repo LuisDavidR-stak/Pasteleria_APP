@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="650.0" prefWidth="950.0" style="-fx-background-color: #f4f6f9;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.pasteleria.controlador.DashboardController">
+    <top>
+        <VBox spacing="5.0" style="-fx-background-color: #2c3e50; -fx-padding: 15;">
+            <children>
+                <Label text="Pastelería - Sistema de Gestión" textFill="WHITE">
+                    <font>
+                        <Font name="System Bold" size="22.0" />
+                    </font>
+                </Label>
+                <Label text="Panel Principal: Control de Inventario, Costos y Ventas" textFill="#bdc3c7">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+    </top>
+    <center>
+        <VBox spacing="20.0">
+            <padding>
+                <Insets bottom="20.0" left="25.0" right="25.0" top="20.0" />
+            </padding>
+            <children>
+                <!-- TARJETAS DE INDICADORES (KPIs) -->
+                <HBox spacing="20.0">
+                    <children>
+                        <!-- Tarjeta 1: Insumos Críticos -->
+                        <VBox prefWidth="280.0" style="-fx-background-color: white; -fx-background-radius: 8; -fx-border-radius: 8; -fx-border-color: #e74c3c; -fx-border-width: 0 0 0 5; -fx-padding: 15; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 0, 2);">
+                            <children>
+                                <Label text="Insumos Críticos" textFill="#7f8c8d">
+                                    <font>
+                                        <Font name="System Bold" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lblInsumosCriticos" text="0" textFill="#c0392b">
+                                    <font>
+                                        <Font name="System Bold" size="28.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Por debajo del stock mínimo" textFill="#95a5a6" />
+                            </children>
+                        </VBox>
+                        <!-- Tarjeta 2: Caja de Hoy -->
+                        <VBox prefWidth="280.0" style="-fx-background-color: white; -fx-background-radius: 8; -fx-border-radius: 8; -fx-border-color: #27ae60; -fx-border-width: 0 0 0 5; -fx-padding: 15; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 0, 2);">
+                            <children>
+                                <Label text="Caja de Hoy" textFill="#7f8c8d">
+                                    <font>
+                                        <Font name="System Bold" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lblCajaHoy" text="S/ 0.00" textFill="#27ae60">
+                                    <font>
+                                        <Font name="System Bold" size="28.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Ventas completadas del día" textFill="#95a5a6" />
+                            </children>
+                        </VBox>
+                        <!-- Tarjeta 3: Gastos del Mes -->
+                        <VBox prefWidth="280.0" style="-fx-background-color: white; -fx-background-radius: 8; -fx-border-radius: 8; -fx-border-color: #f39c12; -fx-border-width: 0 0 0 5; -fx-padding: 15; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.05), 5, 0, 0, 2);">
+                            <children>
+                                <Label text="Gastos Operativos (Mes)" textFill="#7f8c8d">
+                                    <font>
+                                        <Font name="System Bold" size="13.0" />
+                                    </font>
+                                </Label>
+                                <Label fx:id="lblGastosMes" text="S/ 0.00" textFill="#d35400">
+                                    <font>
+                                        <Font name="System Bold" size="28.0" />
+                                    </font>
+                                </Label>
+                                <Label text="Fijos y variables acumulados" textFill="#95a5a6" />
+                            </children>
+                        </VBox>
+                    </children>
+                </HBox>
+
+                <Separator prefWidth="200.0" />
+
+                <!-- ACCIONES RÁPIDAS -->
+                <Label text="Módulos del Sistema">
+                    <font>
+                        <Font name="System Bold" size="16.0" />
+                    </font>
+                </Label>
+                <HBox spacing="15.0">
+                    <children>
+                        <Button prefHeight="45.0" prefWidth="180.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 6;" text="📦 Insumos / Kardex" />
+                        <Button prefHeight="45.0" prefWidth="180.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 6;" text="🎂 Registrar Producción" />
+                        <Button prefHeight="45.0" prefWidth="180.0" style="-fx-background-color: #34495e; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 6;" text="💵 Punto de Venta" />
+                        <Button onAction="#cargarMetricas" prefHeight="45.0" prefWidth="140.0" style="-fx-background-color: #2980b9; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 6;" text="🔄 Actualizar" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </center>
+</BorderPane>
