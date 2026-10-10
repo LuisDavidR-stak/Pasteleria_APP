@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c6be992-3658-4e5a-bc47-6bf46938b845" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pasteleria_APP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/Pasteleria_APP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pasteleria/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/src/com/pasteleria/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pasteleria/conexion/conexionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/src/com/pasteleria/conexion/conexionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pasteleria/controlador/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/src/com/pasteleria/controlador/DashboardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pasteleria/dao/DashboardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/src/com/pasteleria/dao/DashboardDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pasteleria/modelo/Insumo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/src/com/pasteleria/modelo/Insumo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vistas/DashboardView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/src/vistas/DashboardView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pasteleria/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/target/classes/com/pasteleria/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pasteleria/conexion/conexionDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/target/classes/com/pasteleria/conexion/conexionDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pasteleria/controlador/DashboardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/target/classes/com/pasteleria/controlador/DashboardController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pasteleria/dao/DashboardDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/target/classes/com/pasteleria/dao/DashboardDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pasteleria/modelo/Insumo.class" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/target/classes/com/pasteleria/modelo/Insumo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/vistas/DashboardView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Pasteleria_Dashboard/target/classes/vistas/DashboardView.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LuisDavidR-stak&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LuisDavidR-stak/Pasteleria_APP.git&quot;,
+    &quot;accountId&quot;: &quot;284e319a-faed-423b-85e7-e142d8830843&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3KQfmGa2KXq4hxwsDIRAsURsMEU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Usuario/IdeaProjects/Pasteleria_APP/Pasteleria_Dashboard/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\IdeaProjects\Pasteleria_APP\Pasteleria_Dashboard" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pasteleria.App" />
+      <module name="Pasteleria_APP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pasteleria.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Pasteleria_APP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c6be992-3658-4e5a-bc47-6bf46938b845" name="Changes" comment="" />
+      <created>1791494884480</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791494884480</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Pasteleria_Dashboard/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
